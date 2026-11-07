@@ -2,15 +2,23 @@
   <title>MQ FM · Mingqing</title>
   <desc>A night sky, a slowly spinning record, and the typed line: Tools for everyday work.</desc>
   <style>
-    .stars { animation: twinkle 5s ease-in-out 3 alternate both; }
+    .stars { animation: twinkle 5s cubic-bezier(.22, 1, .36, 1) infinite alternate both; }
     .stars-2 { animation-delay: .7s; }
-    .disc { transform-origin: 671px 175px; animation: rotate-disc 16s linear 1 both; }
-    .typing { transform-origin: 0 0; transform-box: fill-box; animation: type 2.5s steps(24, end) .35s both; }
-    .cursor { animation: follow 2.5s steps(24, end) .35s both, cursor .65s step-end 5; }
+    .disc { transform-origin: 671px 175px; animation: rotate-disc 20s linear infinite; }
+    .typing { transform-origin: 0 0; transform-box: fill-box; animation: type 12s infinite both; }
+    .cursor { animation: follow 12s infinite both, cursor 1.1s step-end infinite; }
     @keyframes twinkle { from { opacity: .32 } to { opacity: 1 } }
     @keyframes rotate-disc { to { transform: rotate(360deg) } }
-    @keyframes type { from { transform: scaleX(0) } to { transform: scaleX(1) } }
-    @keyframes follow { from { transform: translateX(-319px) } to { transform: translateX(0) } }
+    @keyframes type {
+      0%, 4% { transform: scaleX(0); animation-timing-function: steps(24, end); }
+      25%, 90% { transform: scaleX(1); animation-timing-function: steps(24, end); }
+      99%, 100% { transform: scaleX(0); }
+    }
+    @keyframes follow {
+      0%, 4% { transform: translateX(-319px); animation-timing-function: steps(24, end); }
+      25%, 90% { transform: translateX(0); animation-timing-function: steps(24, end); }
+      99%, 100% { transform: translateX(-319px); }
+    }
     @keyframes cursor { 50% { opacity: .15 } }
     @media (prefers-reduced-motion: reduce) { .stars, .disc, .typing, .cursor { animation: none; } }
   </style>
