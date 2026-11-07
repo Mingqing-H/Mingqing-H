@@ -7,17 +7,20 @@
 
 **[作品集 PDF](https://mingqing-h.github.io/portfolio-pdf/)** · [♫ 背景音乐](https://mingqing-h.github.io/Mingqing-H/)
 
-## 精选项目
+## 🛠️ 精选项目
 
 - [Muse PI](https://github.com/Mingqing-H/Muse-PI) · 本地 AI 对话与代码助手
 - [Financial Automation Dong](https://github.com/Mingqing-H/Financial-Automation-Dong) · 财务流程自动化
 - [Web MQ](https://github.com/Mingqing-H/Web-MQ) · 个人网站
 
-## 贡献地形
+## ⛰️ 贡献地形
 
-![过去 365 天的 GitHub 贡献地形。每个方块代表一天，方块越高表示贡献越多。](assets/contribution-terrain.svg)
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="assets/contribution-terrain-motion.svg">
+  <img loading="lazy" alt="过去 365 天的 GitHub 贡献地形。每个方块代表一天，方块越高表示贡献越多。" src="assets/contribution-terrain.svg">
+</picture>
 
-## 图像手记
+## 🖼️ 图像手记
 
 <picture>
   <source media="(prefers-reduced-motion: no-preference)" srcset="assets/gallery/field-notes-blinds.svg">
