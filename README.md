@@ -16,3 +16,10 @@
 ## 贡献地形
 
 ![过去 365 天的 GitHub 贡献地形。每个方块代表一天，方块越高表示贡献越多。](assets/contribution-terrain.svg)
+
+## 野外放映
+
+![黎明前的高山湖，雪山和天边的第一缕暖光倒映在湖面上。](assets/alpine-twilight.webp)
+
+- [▶《荒野求生》：极寒求生](https://www.youtube.com/watch?v=tp-btP312PU) · Discovery
+- [▶《地球脉动》：雪豹捕猎](https://www.youtube.com/watch?v=Uj0EVT-Ekog) · BBC Earth

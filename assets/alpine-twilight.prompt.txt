@@ -1,0 +1,3 @@
+Image generation: built-in ImageGen
+
+Use case: photorealistic-natural. Asset: wide photographic interlude for a personal GitHub profile themed like a nighttime radio station. A high alpine lake at astronomical twilight, dark jagged ridges reflected in glassy water, the quiet first hint of amber dawn between two ridgelines, sparse sharp stars fading above. True fine-art travel photography, naturally graded ink blue, slate lavender and subtle amber, believable topography, rich but readable shadows, controlled highlights. Wide panoramic crop approximately 3:1; compose a clean silhouette and reflective shoreline with essential details in the middle vertical half. No people, buildings, type, logos, watermarks, giant moon, or fantasy objects.
