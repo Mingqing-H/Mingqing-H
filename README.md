@@ -19,4 +19,7 @@
 
 ## 图像手记
 
-![双列图集。左列是黎明高山湖、雨后蕨叶与赭红折纸；右列是砂岩拱门、深海水母与雨夜街巷。](assets/gallery/field-notes.webp)
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="assets/gallery/field-notes-blinds.svg">
+  <img loading="lazy" alt="双列图集。左列是黎明高山湖、雨后蕨叶与赭红折纸；右列是砂岩拱门、深海水母与雨夜街巷。" src="assets/gallery/field-notes.webp">
+</picture>
