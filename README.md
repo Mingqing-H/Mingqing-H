@@ -16,4 +16,4 @@
 
 ## 贡献地形
 
-[![过去 365 天的 GitHub 贡献地形，每个方块代表一天，方块越高表示贡献越多。点击查看原始贡献日历。](assets/contribution-terrain.svg)](https://github.com/Mingqing-H#contribution-activity)
+![过去 365 天的 GitHub 贡献地形。每个方块代表一天，方块越高表示贡献越多。](assets/contribution-terrain.svg)
