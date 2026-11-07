@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="342" viewBox="0 0 880 342" fill="none">
+  <title>MQ FM · Mingqing</title>
+  <desc>A night sky, a slowly spinning record, and the typed line: Tools for everyday work.</desc>
+  <style>
+    .stars { animation: twinkle 5s ease-in-out 3 alternate both; }
+    .stars-2 { animation-delay: .7s; }
+    .disc { transform-origin: 671px 175px; animation: rotate-disc 16s linear 1 both; }
+    .typing { transform-origin: 0 0; transform-box: fill-box; animation: type 2.5s steps(24, end) .35s both; }
+    .cursor { animation: follow 2.5s steps(24, end) .35s both, cursor .65s step-end 5; }
+    @keyframes twinkle { from { opacity: .32 } to { opacity: 1 } }
+    @keyframes rotate-disc { to { transform: rotate(360deg) } }
+    @keyframes type { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @keyframes follow { from { transform: translateX(-319px) } to { transform: translateX(0) } }
+    @keyframes cursor { 50% { opacity: .15 } }
+    @media (prefers-reduced-motion: reduce) { .stars, .disc, .typing, .cursor { animation: none; } }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect x=".5" y=".5" width="879" height="341" rx="20"/></clipPath>
+    <clipPath id="type"><rect class="typing" x="64" y="213" width="314" height="32"/></clipPath>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5" gradientUnits="objectBoundingBox">
+      <stop stop-color="#303B68" stop-opacity=".8"/><stop offset="1" stop-color="#303B68" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sleeve" x1="581" y1="71" x2="752" y2="275" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2C3756"/><stop offset="1" stop-color="#131B31"/>
+    </linearGradient>
+    <linearGradient id="record" x1="610" y1="92" x2="727" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#292C4A"/><stop offset=".45" stop-color="#101424"/><stop offset="1" stop-color="#232B41"/>
+    </linearGradient>
+    <pattern id="dust" width="119" height="107" patternUnits="userSpaceOnUse">
+      <path d="M8 31h.1M20 67h.1M39 9h.1M43 52h.1M66 87h.1M87 37h.1M100 96h.1M107 15h.1" stroke="#B0BDE7" stroke-width="1.6" stroke-linecap="round" opacity=".43"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="880" height="342" fill="#101523"/>
+    <ellipse cx="652" cy="170" rx="370" ry="270" fill="url(#halo)"/>
+    <rect width="880" height="342" fill="url(#dust)"/>
+    <path class="stars" d="M25 133h.1M145 43h.1M289 66h.1M341 287h.1M482 53h.1M472 203h.1M568 290h.1M760 54h.1M817 110h.1M833 233h.1M730 316h.1" stroke="#F2DEB7" stroke-width="3" stroke-linecap="round"/>
+    <path class="stars stars-2" d="M378 46h.1M406 211h.1M58 270h.1M158 272h.1M528 63h.1M524 255h.1M790 277h.1M849 62h.1M863 187h.1" stroke="#BDD7FF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M482 112h18m-9-9v18M802 70h14m-7-7v14M798 299h12m-6-6v12" stroke="#A5B5E3" stroke-opacity=".65" stroke-linecap="round"/>
+    <path d="M549 31 812 303M537 286 801 54" stroke="#8E9DCD" stroke-opacity=".18" stroke-dasharray="3 6"/>
+    <rect x="558" y="66" width="218" height="218" rx="16" fill="url(#sleeve)" stroke="#515D85"/>
+    <rect x="568" y="76" width="198" height="198" rx="10" stroke="#6977A0" stroke-opacity=".38"/>
+    <g class="disc">
+      <circle cx="671" cy="175" r="91" fill="url(#record)" stroke="#8590B8" stroke-opacity=".85"/>
+      <g stroke="#AAB7E1" stroke-opacity=".22">
+        <circle cx="671" cy="175" r="83"/><circle cx="671" cy="175" r="77"/><circle cx="671" cy="175" r="70"/><circle cx="671" cy="175" r="64"/><circle cx="671" cy="175" r="58"/><circle cx="671" cy="175" r="51"/><circle cx="671" cy="175" r="45"/>
+      </g>
+      <path d="M600 134a82 82 0 0 1 44-37m67 144a78 78 0 0 0 31-32" stroke="#E2C59A" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="671" cy="175" r="35" fill="#D9BF94"/>
+      <circle cx="671" cy="175" r="29" stroke="#755E55" stroke-opacity=".65"/>
+      <path d="M652 177c9-18 26-18 39 0m-39 0c10 13 25 13 39 0" stroke="#6C5760" stroke-width="1.3"/>
+      <circle cx="671" cy="175" r="4" fill="#211F31"/>
+    </g>
+    <path d="M748 88h8v8M578 254v10h10" stroke="#DCBD95" stroke-width="1.5" stroke-linecap="round"/>
+    <g font-family="ui-monospace, Consolas, monospace">
+      <rect x="64" y="59" width="135" height="37" rx="8" fill="#242B42" stroke="#545F87"/>
+      <circle cx="85" cy="77.5" r="4.5" fill="#E4C9A0"/>
+      <text x="102" y="84" fill="#EFE0CB" font-size="19" letter-spacing="2" font-weight="600">MQ FM</text>
+      <text x="64" y="237" textLength="310" lengthAdjust="spacingAndGlyphs" fill="#BBD1FD" font-size="24" clip-path="url(#type)">Tools for everyday work.</text>
+      <rect class="cursor" x="383" y="218" width="9" height="22" rx="2" fill="#E4C9A0"/>
+    </g>
+    <text x="60" y="184" fill="#F5F0E9" font-family="Geist, system-ui, sans-serif" font-size="88" font-weight="700" letter-spacing="-5">Mingqing</text>
+    <path d="M66 282h44m8 0h15m8 0h6" stroke="#D9BF94" stroke-width="3" stroke-linecap="round"/>
+    <path d="M160 282h259" stroke="#5B668C" stroke-opacity=".64" stroke-linecap="round"/>
+  </g>
+  <rect x=".5" y=".5" width="879" height="341" rx="20" stroke="#5A6287"/>
+</svg>
