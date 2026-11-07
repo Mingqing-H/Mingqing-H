@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111625">
+<title>野外放映 · MQ FM</title>
+<style>
+  :root { color-scheme: dark; font-family: Geist, system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #111625; color: #f5f0e9; }
+  main { max-width: 944px; margin: auto; padding: clamp(16px, 5vw, 48px) 16px; }
+  h1 { font-size: clamp(24px, 4vw, 36px); margin: 24px 0 16px; line-height: 1.25; }
+  a { color: #bfd1fb; text-underline-offset: 4px; }
+  a:focus-visible { outline: 2px solid #e6caa2; outline-offset: 4px; }
+  iframe { display: block; width: 100%; aspect-ratio: 16/9; min-height: 200px; border: 1px solid #4d587d; border-radius: 12px; background: #090c15; }
+  nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 16px; }
+</style>
+<main>
+  <a href="https://github.com/Mingqing-H">← GitHub 主页</a>
+  <h1 id="film-title">野外放映</h1>
+  <div id="player"></div>
+  <nav aria-label="影片链接">
+    <a id="original" hidden>在 YouTube 观看</a>
+    <a id="other" hidden></a>
+  </nav>
+  <noscript>
+    <p><a href="https://www.youtube.com/watch?v=tp-btP312PU">《荒野求生》：极寒求生</a></p>
+    <p><a href="https://www.youtube.com/watch?v=Uj0EVT-Ekog">《地球脉动》：雪豹捕猎</a></p>
+  </noscript>
+</main>
+<script>
+  const films = new Map([
+    ["survival", { id: "tp-btP312PU", title: "《荒野求生》：极寒求生", short: "极寒求生" }],
+    ["leopard", { id: "Uj0EVT-Ekog", title: "《地球脉动》：雪豹捕猎", short: "雪豹捕猎" }],
+  ]);
+  const key = new URLSearchParams(location.search).get("film") === "leopard" ? "leopard" : "survival";
+  const film = films.get(key);
+  const next = key === "leopard" ? "survival" : "leopard";
+  document.title = film.title + " · MQ FM";
+  document.querySelector("#film-title").textContent = film.title;
+  const original = document.querySelector("#original");
+  original.href = "https://www.youtube.com/watch?v=" + film.id;
+  original.hidden = false;
+  const other = document.querySelector("#other");
+  other.href = "?film=" + next;
+  other.textContent = "切换到「" + films.get(next).short + "」";
+  other.hidden = false;
+  const frame = document.createElement("iframe");
+  frame.title = film.title;
+  frame.allow = "encrypted-media; picture-in-picture; fullscreen";
+  frame.allowFullscreen = true;
+  frame.referrerPolicy = "strict-origin-when-cross-origin";
+  frame.src = "https://www.youtube-nocookie.com/embed/" + film.id;
+  document.querySelector("#player").append(frame);
+</script>
+</html>

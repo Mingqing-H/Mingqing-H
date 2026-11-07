@@ -21,5 +21,9 @@
 
 ![黎明前的高山湖，雪山和天边的第一缕暖光倒映在湖面上。](assets/alpine-twilight.webp)
 
-- [▶《荒野求生》：极寒求生](https://www.youtube.com/watch?v=tp-btP312PU) · Discovery
-- [▶《地球脉动》：雪豹捕猎](https://www.youtube.com/watch?v=Uj0EVT-Ekog) · BBC Earth
+<p>
+  <a href="https://mingqing-h.github.io/Mingqing-H/wild/?film=survival"><img src="https://i.ytimg.com/vi/tp-btP312PU/mqdefault.jpg" width="47%" alt="播放《荒野求生》：极寒求生"></a>
+  <a href="https://mingqing-h.github.io/Mingqing-H/wild/?film=leopard"><img src="https://i.ytimg.com/vi/Uj0EVT-Ekog/mqdefault.jpg" width="47%" alt="播放《地球脉动》：雪豹捕猎"></a>
+</p>
+
+[▶ 极寒求生](https://mingqing-h.github.io/Mingqing-H/wild/?film=survival) · [▶ 雪豹捕猎](https://mingqing-h.github.io/Mingqing-H/wild/?film=leopard)
