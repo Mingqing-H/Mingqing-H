@@ -5,7 +5,7 @@
 
 时间从不回头，却总在人身上重现。
 
-**[个人网站 ↗](https://portfolio-pdf-ten.vercel.app/)** · [♫ 背景音乐](https://mingqing-h.github.io/Mingqing-H/)
+**[个人网站 ↗](https://portfolio-pdf-ten.vercel.app/)**
 
 ## 随想
 
