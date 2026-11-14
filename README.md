@@ -3,7 +3,7 @@
   <img alt="MQ FM · Mingqing。星空、唱片与字幕：Tools for everyday work." src="assets/mq-fm.svg">
 </picture>
 
-我喜欢把重复的工作做成工具，再把工具做得顺手一点。
+时间从不回头，却总在人身上重现。
 
 **[作品集 PDF](https://mingqing-h.github.io/portfolio-pdf/)** · [♫ 背景音乐](https://mingqing-h.github.io/Mingqing-H/)
 
