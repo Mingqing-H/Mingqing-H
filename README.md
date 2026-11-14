@@ -5,13 +5,15 @@
 
 时间从不回头，却总在人身上重现。
 
-**[作品集 PDF](https://mingqing-h.github.io/portfolio-pdf/)** · [♫ 背景音乐](https://mingqing-h.github.io/Mingqing-H/)
+**[个人网站 ↗](https://portfolio-pdf-ten.vercel.app/)** · [♫ 背景音乐](https://mingqing-h.github.io/Mingqing-H/)
 
-## 🛠️ 精选项目
+## 随想
 
-- [Muse PI](https://github.com/Mingqing-H/Muse-PI) · 本地 AI 对话与代码助手
-- [Financial Automation Dong](https://github.com/Mingqing-H/Financial-Automation-Dong) · 财务流程自动化
-- [Web MQ](https://github.com/Mingqing-H/Web-MQ) · 个人网站
+人常以为，走得更远便能离起点更远。可许多年后，一阵风、一束傍晚的光，仍能让漫长的路折回一个瞬间。
+
+我们借名字辨认世界，也容易把名字当作世界。直到一朵云越过山脊，才发现词语停下的地方，事物仍在继续。
+
+每一次选择，都会让一些可能的人生归于沉默。那些未曾走过的路，也参与了此刻脚下这条路的形状。
 
 ## ⛰️ 贡献地形
 
